@@ -1,0 +1,33 @@
+{
+  "type": "module",
+  "name": "kanbas-node-server-app",
+  "version": "1.0.0",
+  "description": "Node HTTP Web Server for the Kanbas Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hams7504/kanbas-node-server-app.git"
+  },
+  "keywords": [
+    "Node",
+    "REST",
+    "HTTP",
+    "Web",
+    "Development",
+    "CS4550"
+  ],
+  "author": "Hamsini Malli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hams7504/kanbas-node-server-app/issues"
+  },
+  "homepage": "https://github.com/hams7504/kanbas-node-server-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
